@@ -1,9 +1,9 @@
 body {
-  background-color: #3F69AA;
+  background-color: #c73a66;
 }
 header,
 footer {
-  background-color: #2E4A62 !important;
+  background-color: #f77d6f !important;
 }
 textarea {
   resize: none !important;
@@ -13,6 +13,8 @@ textarea {
   padding: 0px 5px;
   height: 400px;
   overflow-y: scroll;
+  background: url("https://pm1.narvii.com/7386/9ed808c8235082e38e0c2dd3698feb774463ee0fr1-719-404v2_uhq.jpg");
+
 }
 .messageform {
   border-top: 1px solid #DDD;
@@ -26,15 +28,16 @@ textarea {
   white-space: pre-line;
 }
 .primary .text {
-  background-color: #ffffff;
-  border: 1px solid #DDDDDD;
+  background-color: #d3c7ff;
+  border: 5px solid #DDDDDD;
 }
 .secondary .text {
-  background-color: #A5F1B3;
-  border: 1px solid #A5F1B3;
+  background-color: #ebe6ff;
+  border: 5px solid #DDDDDD;
 }
 aside {
   border-left: 1px solid #DDD;
+  background: url("https://64.media.tumblr.com/d96e0a1abce18b8a6028a0935af5c1b4/tumblr_p5m8zbSbqz1x7362vo6_500.png");
 }
 .emoji-wrapper button {
   position: relative;
