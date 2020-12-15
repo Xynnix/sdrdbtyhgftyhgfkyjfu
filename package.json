@@ -1,0 +1,40 @@
+{
+  "name": "yschat-client",
+  "version": "0.1.0",
+  "description": "ysChat client developed with ReactJS and Bulma.",
+  "author": {
+    "name": "Yusuf SEZER",
+    "email": "yusufsezer@mail.com",
+    "url": "http://www.yusufsezer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xynnix/sdrdbtyhgftyhgfkyjfu.git"
+  },
+  "keywords": [
+    "websocket-client",
+    "websocket-application",
+    "websocket-chat",
+    "chat-client",
+    "react-chat",
+    "socket-io-client"
+  ],
+  "homepage": "https://xynnix.github.io/sdrdbtyhgftyhgfkyjfu",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5",
+    "socket.io-client": "^2.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
